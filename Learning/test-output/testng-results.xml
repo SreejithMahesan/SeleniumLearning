@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8571" started-at="2018-10-30T06:47:11Z" finished-at="2018-10-30T06:47:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8571" started-at="2018-10-30T06:47:11Z" finished-at="2018-10-30T06:47:20Z">
+      <class name="Selenium.Learning.UIControls">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Selenium.Learning.UIControls@5c7fa833]" name="Setup" is-config="true" duration-ms="2941" started-at="2018-10-30T02:47:11Z" finished-at="2018-10-30T02:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Selenium.Learning.UIControls@5c7fa833]" name="LaunchBrowser" duration-ms="3765" started-at="2018-10-30T02:47:14Z" finished-at="2018-10-30T02:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="closenotificationalert()[pri:0, instance:Selenium.Learning.UIControls@5c7fa833]" name="closenotificationalert" duration-ms="1741" started-at="2018-10-30T02:47:18Z" finished-at="2018-10-30T02:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closenotificationalert -->
+        <test-method status="PASS" signature="FlightsReservation()[pri:0, instance:Selenium.Learning.UIControls@5c7fa833]" name="FlightsReservation" duration-ms="107" started-at="2018-10-30T02:47:20Z" finished-at="2018-10-30T02:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightsReservation -->
+      </class> <!-- Selenium.Learning.UIControls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

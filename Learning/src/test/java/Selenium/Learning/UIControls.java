@@ -54,9 +54,9 @@ public class UIControls {
 		driver.findElement(By.cssSelector("#main-menu > ul > li:nth-child(3) > span > span")).click();
 	}
 	
-	/*@AfterClass
+	@AfterClass
 	public void Teardown()
 	{
 		driver.quit();
-	}*/
+	}
 }

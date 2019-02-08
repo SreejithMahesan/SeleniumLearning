@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParallelTesting]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="ie(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="Selenium.Learning.MultiBrowserTesting">
+        <methods>
+          <include name="Setup"/>
+          <include name="Setup"/>
+          <include name="Setup"/>
+          <include name="TestImplementation01"/>
+          <include name="TearDown"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Selenium.Learning.MultiBrowserTesting -->
+    </classes>
+  </test> <!-- ie(failed) -->
+</suite> <!-- Failed suite [ParallelTesting] -->

@@ -94,6 +94,12 @@ public class FileHandling {
 		}
 	}
 	
+	
+	public void DownloadwithAutoIt()
+	{
+		
+	}
+	
 	@AfterTest
 	public void teardown()
 	{

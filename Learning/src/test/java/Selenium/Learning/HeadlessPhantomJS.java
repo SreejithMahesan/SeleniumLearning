@@ -1,5 +1,5 @@
 package Selenium.Learning;
 
-public class JavascriptExecutor {
+public class HeadlessPhantomJS {
 
 }

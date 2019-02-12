@@ -11,6 +11,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+
+
 public class ElementsIdentification {
 	WebDriver driver;
 	
@@ -24,6 +26,7 @@ public class ElementsIdentification {
 	@Test
 	public void MultipleAttributesWithCssSelector()
 	{
+		
 		WebElement inputElement01 = driver.findElement(By.cssSelector("form input#email"));
 		WebElement inputElement02 = driver.findElement(By.cssSelector("input.emai"));
 		WebElement inputElement03 = driver.findElement(By.cssSelector("input[type='submit'][value='Subscribed']"));
